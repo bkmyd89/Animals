@@ -9,9 +9,6 @@ body {
   color: green;
 }
 
-
-
-
 h1 {
   text-align: center;
 }
@@ -31,4 +28,30 @@ h1 {
 img.resize {
   max-width:75%;
   max-height:75%;
+}
+
+
+@media screen and (max-width: 768px) {
+
+body {
+  background-color: black;
+  color: white;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 200px) {
+
+body {
+  background-color: teal;
+  color: white;
+  }
+}
+
+styles.css
+@media screen and (min-width: 768px) {
+  .column {
+    width: 300px;
+    float: right;
+    padding: 20px;
+  }
 }
