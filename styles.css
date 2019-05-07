@@ -1,0 +1,34 @@
+
+body {
+  font: Times Roman Numeral;
+  font-size: 25px;
+  background-color: lightblue;
+}
+
+#header1 {
+  color: green;
+}
+
+
+
+
+h1 {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  color: purple;
+  padding: 5px;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+
+img.resize {
+  max-width:75%;
+  max-height:75%;
+}
